@@ -4,8 +4,9 @@
   display: flex;
   text-align: center;
   background-image: url('../images/CAAC_banner_50.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center center;
   background-size: cover;
   color: white;
 }
