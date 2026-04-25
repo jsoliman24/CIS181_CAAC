@@ -6,7 +6,7 @@
   text-align: center;
   background-image: url('../images/CAAC_banner_50.jpg');
   background-repeat: no-repeat;
-  background-position: top 500px;
+ background-position-y: top 100px;
   background-size: cover;
   color: white;
 }
