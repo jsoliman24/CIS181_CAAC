@@ -1,4 +1,13 @@
 /* Home Page Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('../images/CAAC_banner1.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  color: white;
 
 .hero h1 {
   max-width: 800px;
