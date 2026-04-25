@@ -1,10 +1,15 @@
 /* Home Page Styles */
 
 .banner {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
   background-image: url('../images/CAAC_banner_50.jpg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
+  color: white;
 }
 
 .hero h1 {
