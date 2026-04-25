@@ -3,12 +3,13 @@
 .hero {
   display: flex;
   align-items: center;
-  margin-top: 500px;
+  min-height: 50vh;
   text-align: center;
   background-image: url('../images/CAAC_banner.jpg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
+  color: white;
 }
 
 .hero h1 {
