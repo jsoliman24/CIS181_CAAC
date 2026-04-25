@@ -3,7 +3,7 @@
 .hero {
   display: flex;
   align-items: center;
-  object-poisition: 50% 50%;
+  object-poisition: bottom;
   text-align: center;
   background-image: url('../images/CAAC_banner.jpg');
   background-repeat: no-repeat;
