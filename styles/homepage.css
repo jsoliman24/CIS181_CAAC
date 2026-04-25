@@ -63,9 +63,3 @@ blockquote p::before {
 blockquote p::after {
   content: '\201D';
 }
-
-
-/* ===============================
-   Mobile Styles: 0px to 640px 
-   ===============================
-*/
