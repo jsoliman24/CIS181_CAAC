@@ -1,7 +1,7 @@
 /* Home Page Styles */
 .hero {
   display: flex;
-  text-align: center;
+  text-align: bottom;
   background-image: url('../images/CAAC_banner1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
