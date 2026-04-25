@@ -1,231 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Chicago Avian Adventure Collective</title>
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/homepage_responsive.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chiocago Avian Adventure Collective</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global styles -->
+    <link href="globals.css" rel="stylesheet" />
+
+    <!-- Page styles -->
+    <!--link href="styles/home.css" rel="stylesheet" />-->
   </head>
   <body>
-    <header class="header-area">
-      <div class="container">
-        <div class="menu-area">
-          <nav>
-            <ul>
-              <li><a href="#" target="_self">HOME</a></li>
-              <li>
-                <a href="#" target="_self">ABOUT US</a>
-                <ul>
-                  <li><a href="#" target="_self">Get Started Tutorial</a></li>
-                  <li><a href="#" target="_self">Introduction Video</a></li>
-                  <li><a href="#" target="_self">See the Features</a></li>
-                  <li><a href="#" target="_self">Download a Trial</a></li>
-                  <li><a href="#" target="_self">Get in Touch!</a></li>
-                </ul>
-              </li>
-              <li><a href="#" target="_self">EVENTS</a></li>
-              <li><a href="#" target="_self">BIRD MAP</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-content">
-          <h1>Starnight App</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore <br />magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation
-          </p>
-        </div>
-        <div class="play-icon">
-          <img src="images/play-button.png" alt="Play Icon" />
-        </div>
-        <div class="button">
-          <a href="#">Get Started</a>
-        </div>
+    <header class="header">
+      <div class="container navigation">
+        <a href="index.html" class="logo">
+          <img
+            src="images/logo-house.png"
+            alt="Majestic Maids"
+            class="logo-img"
+          />
+          <span>Majestic Maids</span>
+        </a>
+        <nav>
+          <a href="#" class="nav-icon">
+            <img src="images/bars-solid.svg" alt="Toggle menu" />
+          </a>
+          <ul class="nav-menu">
+            <li>
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li>
+              <a href="services.html" class="nav-link">ABOUT US</a>
+            </li>
+            <li>
+              <a href="book-now.html" class="nav-link">FAQ</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">BIRD MAP</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link">EVENTS</a>
+            </li>
+            <li>
+              <a href="faq.html" class="nav-link">JOIN US</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <div class="contend-area">
-      <div class="download-section">
+    <main>
+  
+      <section class="hero">
         <div class="container">
-          <div class="download-content-section">
-            <h1>See the sky even better than your own eyes can</h1>
-            <p>
-              Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-              Auae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
-            </p>
-            <a href="#">Download Now</a>
+          <h6 class="title-sm">Chicago</h6>
+          <h1>Professional cleaning services for your home or office</h1>
+          <!-- <p class="lead">
+            We provide professional cleaning services for your home or office.
+          </p> -->
+          <div>
+            <a href="book-now.html" class="button button-blue"> Get Started </a>
           </div>
         </div>
-      </div>
-      <div class="client-review-section">
-        <div class="container">
-          <div class="client-image">
-            <img src="images/av-blaz.png" alt="Client image" />
+      </section>
+
+   
+      <section>
+        <div class="container text-center">
+          <div>
+            <h6 class="title-sm">How it works</h6>
           </div>
-          <div class="client-review">
-            <h1>
-              I couldnt possibly use my own eyes to look at the stars, thansk
-              Starnught App.
-            </h1>
-          </div>
-          <div class="more-review">
-            <img src="images/round-fillup.png" alt="Round Icon" />
-            <img src="images/round.png" alt="Round Icon" />
-            <img src="images/round.png" alt="Round Icon" />
+          <div class="row mt-80">
+            <div class="col">
+              <div class="number">1</div>
+              <h5>Set up a cleaning plan</h5>
+              <p>
+                Choose a weekly, biweekly, or monthly cleaning plan. We schedule
+                your recurring bookings to make things easy.
+              </p>
+            </div>
+
+            <div class="col">
+              <div class="number">2</div>
+              <h5>Manage everything online</h5>
+              <p>
+                Rescheduling, contacting your professional, and tipping are just
+                a tap away.
+              </p>
+            </div>
+
+            <div class="col">
+              <div class="number">3</div>
+              <h5>Sit back and relax</h5>
+              <p>
+                An experienced, fully-equipped housekeeping professional will be
+                there on time.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="demo-section">
+      </section>
+
+   
+      <section>
         <div class="container">
-          <div class="w-45">
-            <div class="left-content border-line">
-              <h6>SO DREAMY</h6>
-              <p>
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <h6>APPLE STORE</h6>
-              <p>
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div class="w-45 mrgn">
-            <div class="right-content">
-              <h6>MORE BUZZ WORDS</h6>
-              <p>
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <h6>EXTRA STARTUP JUICE</h6>
-              <p>
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div class="demo-button">
-            <a href="#">Try Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="color-content">
-        <div class="container">
-          <div class="main-content">
-            <div class="w-30 spes">
-              <div class="first-color"></div>
-              <div class="color-title">
-                <h6>EXTRA STARTUP JUICE</h6>
-                <p>Added Feature</p>
-              </div>
-            </div>
-            <div class="w-30 spes">
-              <div class="second-color"></div>
-              <div class="color-title">
-                <h6>SO THIRSTY</h6>
-                <p>Extra nice UI comes with the app</p>
-              </div>
-            </div>
-            <div class="w-30">
-              <div class="some-text">
-                <h1>So flat you'll want to give it some shadows</h1>
-                <p>
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="slider-button">
-            <div class="img-wraper">
+          <div class="row">
+            <div class="col">
               <img
-                src="images/left-greater-than-sign-.png"
-                alt="Graterthan Sign"
-              />
-              <img
-                src="images/right-greater-than-sign.png"
-                alt="Graterthan Sign"
+                src="images/moving.jpg"
+                class="w-full h-auto"
+                alt="People moving with boxes"
               />
             </div>
+
+            <div class="col">
+              <h3>You move out, we clean up.</h3>
+              <p>
+                Moving is a big job, and the last thing you want to worry about
+                is cleaning up your old space. Our expert cleaning teams
+                specialize in move-out cleaning services, taking the stress and
+                hassle out of the moving process. We'll work quickly and
+                efficiently to ensure that your property is left spotless and
+                ready for its next occupant. Schedule your move-out cleaning
+                appointment today and enjoy a stress-free moving day!
+              </p>
+              <a href="book-now.html" class="button button-blue">
+                Get started
+              </a>
+            </div>
           </div>
+        </div>
+      </section>
+
+    
+      <section>
+        <div class="container">
+          <div class="text-center">
+            <h2 class="title-sm">Our Gallery</h2>
+            <p class="lead description">
+              Check out our gallery to see some of the icky-to-awesome results
+              that we've achieved for our clients. It's no wonder Chicago
+              residents trust us most for their move-out cleans.
+            </p>
+          </div>
+          <div class="row mt-80">
+            <div class="col">
+              <a
+                href="images/before-after-1.webp"
+                class="gallery-link"
+                target="_blank"
+              >
+                <img
+                  src="images/before-after-1.webp"
+                  class="gallery-image"
+                  alt="Before and after of a kitchen"
+                />
+              </a>
+              <a
+                href="images/before-after-2.webp"
+                class="gallery-link"
+                target="_blank"
+              >
+                <img
+                  src="images/before-after-2.webp"
+                  class="gallery-image"
+                  alt="Before and after of a bathroom"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="images/before-after-3.webp"
+                class="gallery-link"
+                target="_blank"
+              >
+                <img
+                  src="images/before-after-3.webp"
+                  class="gallery-image"
+                  alt="Before and after of a living room"
+                />
+              </a>
+              <a
+                href="images/before-after-4.webp"
+                class="gallery-link"
+                target="_blank"
+              >
+                <img
+                  src="images/before-after-4.webp"
+                  class="gallery-image"
+                  alt="Before and after of a bedroom"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+      <section>
+        <div class="container">
+          <div class="text-center">
+            <h2 class="title-sm">Our Reviews</h2>
+            <p class="lead description">
+              We believe our work speaks for itself, but our customers vouch for
+              us too. Here's just a few of the reviews that make up our 4.9 star
+              rating on Google.
+            </p>
+          </div>
+          <div class="row mt-80">
+            <div class="col">
+              <figure>
+                <blockquote>
+                  <p>
+                    I couldn't be happier with the cleaning services provided by
+                    this company. The team arrived on time, were professional
+                    and friendly, and did an amazing job cleaning my home from
+                    top to bottom. I was especially impressed with the attention
+                    to detail because they didn't miss a single spot!<br />
+                    Highly recommend.
+                  </p>
+                </blockquote>
+                <figcaption>—Jason L.</figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <blockquote>
+                  <p>
+                    I have been using this cleaning company for several months
+                    now and I am always impressed with their work. The team is
+                    consistently thorough and efficient, and they always leave
+                    my home looking and smelling great. It's such a relief to
+                    have a clean home without having to spend hours doing it
+                    myself. Thank you!
+                  </p>
+                </blockquote>
+                <figcaption>—Liam A.</figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <blockquote>
+                  <p>
+                    I recently hired this company for a move-out cleaning and I
+                    was blown away by the results. They were able to make my old
+                    place look better than when I first moved in! The team was
+                    professional, friendly, and incredibly thorough. I would
+                    recommend them to anyone in need of a top-notch cleaning
+                    service.
+                  </p>
+                </blockquote>
+                <figcaption>—Amanda F.</figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <blockquote>
+                  <p>
+                    I was hesitant to hire a cleaning company at first, but I am
+                    so glad I did. The team from this company was amazing - they
+                    worked quickly and efficiently, and the results were truly
+                    impressive. I appreciated the attention to detail and the
+                    fact that they brought all their own supplies. I will
+                    definitely be using them again!
+                  </p>
+                </blockquote>
+                <figcaption>—Emma W.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="container text-center">
+        <div class="logo">Majestic Maids</div>
+        <p>
+          Made with <span class="heart" title="love">&#10084;</span> in Chicago,
+          IL
+        </p>
+        <div class="footer-menu">
+          <a href="services.html" class="footer-link">Services</a>
+          <a href="book-now.html" class="footer-link">Booking</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="contact.html" class="footer-link">Contact Us</a>
+          <a href="faq.html" class="footer-link">FAQ</a>
         </div>
       </div>
-    </div>
-    <!-- FOTER AREA START -->
-    <footer class="footer-area">
-      <div class="container">
-        <div class="text-content">
-          <div class="w-80">
-            <div class="footer-content">
-              <div class="w-60">
-                <p class="first-p">
-                  Nam mi enim, auctor non ultricies a, fringilla eu risus.
-                  Praesent vitae lorem et elit tincidunt accumsan suscipit eu
-                  libero. Maecenas diam est, venenatis vitae dui in, vestibulum
-                  mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam
-                  dolor. Cum sociis natoque penatibus et magnis dis parturient
-                  montes, nascetur ridiculus mus. Vestibulum consectetur commodo
-                  eros, vitae laoreet lectus aliq
-                </p>
-              </div>
-              <div class="w-40 spes">
-                <p class="second-p">
-                  aliquam dolor. Cum sociis natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Vestibulum
-                  consectetur commodo eros, vitae laoreet lectus aliq
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-20">
-            <div class="footer-menus">
-              <ul>
-                <li><a href="#">Get Started Tutorial</a></li>
-                <li><a href="#">Introduction Video</a></li>
-                <li><a href="#">See the Features</a></li>
-                <li><a href="#">Download a Trial</a></li>
-                <li><a href="#">Get in Touch!</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="logo">
-          <a href="#"><img src="images/footer-logo.png" alt="Footer Logo" /></a>
-        </div>
-        <div class="copyright">
-          <p>
-            &copy; 2023 &dash;
-            <a
-              href="https://www.facebook.com/masudranashawon786/"
-              target="_blank"
-            >
-              MASUD RANA SHAWON</a
-            >&dash; All rights reserved
-          </p>
-        </div>
+      <div class="copyright">
+        Copyright &#169; 2023 Majestic Maids LLC. All rights reserved.
       </div>
     </footer>
   </body>
